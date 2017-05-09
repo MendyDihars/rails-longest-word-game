@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+/*@import "bootstrap";*/
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #eee;
+}
+.marged {
+  margin: 100px 0;
+}

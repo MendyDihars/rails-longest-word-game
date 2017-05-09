@@ -1,0 +1,27 @@
+// Place all the styles related to the word controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.letter {
+  padding: 5px;
+  box-shadow: 2px 2px 8px grey;
+  border-radius: 5px;
+  margin: 50px 5px;
+  font-size: 25px;
+  transition: font-size 0.3s ease
+}
+.letter:hover {
+  font-size: 35px;
+}
+.word {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+}
+#error {
+  padding: 15px;
+  border: 1px solid darkred;
+  border-radius: 10px;
+  margin: 30px 0;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 50px;
+}

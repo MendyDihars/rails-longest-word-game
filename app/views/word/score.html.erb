@@ -1,0 +1,11 @@
+<div class="marged">
+  <% @array.each do |l| %>
+    <span class="letter"><%= l.upcase %></span>
+  <% end %>
+  <h2><i class="fa fa-clock-o" aria-hidden="true"></i> <%= Time.now - Time.parse(@time) %><em>s</em></h2>
+  <h1 class='word'><%= @suggestion %></h1>
+  <span>Translation : <%= @translation %></span><br>
+  <% unless @wrong.nil? %>
+    <span id="error"><%= @wrong %></span>
+  <% end %>
+</div>
